@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bee Unisex Salon</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo"><img src="bee logo.png" alt="" /></div>
+      <nav>
+        <div class="hamburger" id="hamburger">&#9776;</div>
+        <ul id="nav-menu">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#our-story">Our Story</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#booking" class="cta">Book Now</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="hero">
+      <div class="hero-content">
+        <h1>Experience Ultimate Beauty and Relaxation</h1>
+        <p>
+          A Modern, Unisex Salon Offering a Full Range of Luxurious Services
+        </p>
+        <a href="#booking" class="btn-primary">Book Your Appointment</a>
+        <a href="#services" class="btn-secondary">Explore Our Services</a>
+      </div>
+    </section>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      <div class="service-categories">
+        <div class="service-category">
+          <img src="hair.webp" alt="Hair" />
+          <h3>Hair Services</h3>
+          <p>Stylish Cuts, Color, and Treatments</p>
+        </div>
+        <div class="service-category">
+          <img src="facials.jfif" alt="facials" />
+          <h3>Skin Services</h3>
+          <p>Rejuvenating Facials and Peels</p>
+        </div>
+        <div class="service-category">
+          <img src="nails.jfif" alt="nails" />
+          <h3>Nail Services</h3>
+          <p>Manicures, Pedicures, and Nail Art</p>
+        </div>
+        <div class="service-category">
+          <img src="massage.jfif" alt="massages" />
+          <h3>Body Services</h3>
+          <p>Massages, Waxing, and Body Treatments</p>
+        </div>
+        <div class="service-category">
+          <img src="makeup.jfif" alt="makeup" />
+          <h3>Additional Services</h3>
+          <p>Makeup, Lashes, Brows, and More</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="our-story">
+      <h2>Our Story</h2>
+      <div class="story-content">
+        <div class="story-text">
+          <p>
+            Welcome to Unisex Salon, where we blend luxury with inclusivity. Our
+            mission is to offer top-quality, personalized beauty services in a
+            welcoming and stylish environment. With a team of skilled
+            professionals, we stay ahead of trends, use the best products, and
+            maintain high standards of hygiene. At Unisex Salon, we celebrate
+            diversity and ensure every client leaves feeling confident and
+            beautiful.
+          </p>
+        </div>
+        <div class="story-image">
+          <img src="Salon image.jfif" alt="Salon Image" />
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <div class="gallery-grid">
+        <img src="hair (1).jfif" alt="Gallery Image 1" />
+        <img src="hair (2).jfif" alt="Gallery Image 2" />
+        <img src="nails (1).jfif" alt="Gallery Image 3" />
+        <img src="nails (2).jfif" alt="Gallery Image 4" />
+        <img src="makeup (1).jfif" alt="Gallery Image 1" />
+        <img src="makeup (2).jfif" alt="Gallery Image 2" />
+        <img src="facials (1).jfif" alt="Gallery Image 3" />
+        <img src="facials (2).jfif" alt="Gallery Image 4" />
+      </div>
+    </section>
+
+    <section id="special-offers">
+      <img src="special offer.png" alt="specialoffer" />
+      <div class="offers">
+        <div class="offer">
+          <h3>First-Time Client Discount</h3>
+          <p>20% Off</p>
+        </div>
+        <div class="offer">
+          <h3>Refer a Friend</h3>
+          <p>Get 10% Off Your Next Service</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Phone: +2347064392070</p>
+      <p>Email: beetouch@gmail.com</p>
+      <p>Address: Shop 25, Metta Mall, Arab Road, Kubwa, Abuja</p>
+      <div class="social-media">
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+      </div>
+    </section>
+
+    <footer>
+      <ul class="footer-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#booking">Book Now</a></li>
+      </ul>
+      <form class="newsletter">
+        <label for="email">Sign up for our newsletter</label>
+        <input type="email" id="email" placeholder="Enter your email" />
+        <button type="submit">Subscribe</button>
+      </form>
+      <p>&copy; 2024 Unisex Salon. All rights reserved.</p>
+    </footer>
+
+    <script>
+      document
+        .getElementById("hamburger")
+        .addEventListener("click", function () {
+          var navMenu = document.getElementById("nav-menu");
+          navMenu.classList.toggle("show");
+        });
+    </script>
+  </body>
+</html>
